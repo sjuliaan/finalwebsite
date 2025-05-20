@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Analyst - IT Career Compass</title>
+    <link rel="stylesheet" href="../styles/resources.css">
+    <link rel="stylesheet" href="../careers/template.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <style>
+        @import url('../careers/template.css');
+        /* ===== Hero Section ===== */
+    .hero {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--cybersecurity-dark) 100%);
+        padding: calc(var(--spacing-xxl) + 30px) 0; /* Increased top padding */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/pattern-dots.svg');
+        opacity: 0.05;
+        z-index: 1;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        max-width: 600px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: var(--spacing-md);
+        color: var(--neutral-color);
+        opacity: 0.8;
+    }
+
+    .breadcrumbs a {
+        color: var(--neutral-color);
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+
+    .breadcrumbs a:hover {
+        opacity: 1;
+    }
+
+    .hero-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-md);
+        margin-top: var(--spacing-lg);
+    }
+
+    .stat {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: var(--spacing-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+
+    .stat i {
+        font-size: 2rem;
+        color: var(--cybersecurity-accent);
+    }
+
+    .stat h4 {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--neutral-color);
+        opacity: 0.9;
+    }
+
+    .stat p {
+        margin: 0;
+        font-weight: 600;
+        color: var(--neutral-color);
+    }
+
+    .cta-buttons {
+        margin-top: var(--spacing-lg);
+        display: flex;
+        gap: var(--spacing-md);
+    }
+
+    .hero-image {
+        max-width: 40%;
+        padding-top: 10px;
+    }
+
+    .hero-image img {
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    </style>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                        <span>IT Career Compass</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../assessment.html">Assessment</a></li>
+                        <li><a href="../career-paths.html">Career Paths</a></li>
+                        <li><a href="../resources.html" class="active">Resources</a></li>
+                        <li><a href="../industry-insights.html">Industry Insights</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Career Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Business Analyst Resources</h1>
+            <p>Discover comprehensive learning materials to build your skills in Artificial Intelligence.</p>
+            <div class="cta-buttons">
+                <a href="../careers/business-analyst.html" class="btn btn-primary"><i class="fas fa-book"></i> Learn more about BA</a>
+                <a href="../assessment.html" class="btn btn-secondary" style="background-color: transparent;
+                border: 2px solid var(--primary-color);
+                color: white;
+                padding: var(--spacing-sm) var(--spacing-lg);
+                border-radius: 30px;
+                text-decoration: none;
+                font-weight: 500;
+                display: inline-block;"><i class="fas fa-clipboard-check"></i> Take Assessment</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="../images/sula_images/ba-resources.jpg" alt="AI Specialist">
+        </div>
+    </div>
+</section>
+
+
+<!-- Quick Navigation Buttons -->
+<section class="quick-nav">
+    <div class="container">
+        <div class="nav-buttons">
+            <a href="#certifications" class="nav-button"><i class="fas fa-certificate"></i> Certification Guides</a>
+            <a href="#courses" class="nav-button"><i class="fas fa-graduation-cap"></i> Online Courses</a>
+            <a href="#tutorials" class="nav-button"><i class="fas fa-laptop-code"></i> Tutorials & Labs</a>
+            <a href="#books" class="nav-button"><i class="fas fa-book"></i> Books</a>
+            <a href="#communities" class="nav-button"><i class="fas fa-users"></i> Communities</a>
+            <a href="#learning-path" class="nav-button"><i class="fas fa-road"></i> Learning Path</a>
+        </div>
+    </div>
+</section>
+
+<!-- Career Overview Section -->
+<section class="career-overview">
+    <div class="container">
+        <div class="section-header">
+            <h2>Business Analyst Career Overview</h2>
+            <p>Business Analysts bridge the gap between business needs and IT solutions by analyzing processes and requirements.</p>
+        </div>
+        <div class="overview-content">
+            <div class="overview-text">
+                <h3>What You'll Learn</h3>
+                <p>Business Analysis involves understanding business problems, eliciting requirements, and facilitating solutions to improve processes and drive organizational success.</p>
+                
+                <p>As a Business Analyst, you'll learn to:</p>
+                <ul>
+                    <li>Gather and document business requirements</li>
+                    <li>Analyze business processes and workflows</li>
+                    <li>Facilitate communication between stakeholders and technical teams</li>
+                    <li>Identify opportunities for process improvements</li>
+                    <li>Create clear and actionable documentation</li>
+                    <li>Support project management and change management activities</li>
+                </ul>
+
+                <h3>Essential Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <ul>
+                            <li>Requirements elicitation and analysis</li>
+                            <li>Process modeling and mapping</li>
+                            <li>Data analysis and visualization</li>
+                            <li>Use case and user story development</li>
+                            <li>Prototyping and wireframing</li>
+                            <li>Business process improvement methodologies</li>
+                            <li>Basic knowledge of software development lifecycle (SDLC)</li>
+                            <li>Familiarity with tools like JIRA, Confluence, and MS Visio</li>
+                            <li>Testing and quality assurance support</li>
+                            <li>Data modeling basics</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <ul>
+                            <li>Analytical thinking</li>
+                            <li>Effective communication</li>
+                            <li>Problem-solving</li>
+                            <li>Attention to detail</li>
+                            <li>Negotiation and conflict resolution</li>
+                            <li>Stakeholder management</li>
+                            <li>Critical thinking</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Career Paths in Business Analysis</h3>
+                <ul class="career-paths-list">
+                    <li><strong>Junior Business Analyst</strong> - Assist in gathering requirements and documentation</li>
+                    <li><strong>Business Analyst</strong> - Lead requirement gathering, process analysis, and stakeholder communication</li>
+                    <li><strong>Senior Business Analyst</strong> - Oversee complex projects and mentor junior analysts</li>
+                    <li><strong>Product Owner</strong> - Define product vision and prioritize backlog for development teams</li>
+                    <li><strong>Business Systems Analyst</strong> - Focus on the intersection of business needs and IT systems</li>
+                    <li><strong>Consultant</strong> - Provide expert advice on business process improvement and requirements management</li>
+                    <li><strong>Business Analysis Manager</strong> - Manage a team of analysts and align analysis with business strategy</li>
+                </ul>
+            </div>
+            <div class="overview-stats">
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Job Growth</h4>
+                    <p>14% projected growth from 2021-2031</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h4>Average Salary</h4>
+                    <p>$85,000 per year</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4>Education</h4>
+                    <p>Bachelor's degree in business, IT, or related field</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Top Certifications</h4>
+                    <p>CBAP, PMI-PBA, IIBA ECBA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certification Guides Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+        <div class="section-header">
+            <h2>Certification Guides</h2>
+            <p>Industry-recognized certifications to validate your business analysis skills and advance your career.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>CBAP (Certified Business Analysis Professional)</h3>
+                <p>Advanced certification for experienced business analysts demonstrating expertise in business analysis.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 3-6 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Advanced</span>
+                </div>
+                <a href="https://www.coursera.org/specializations/certified-business-analysis-professional-cbap?campaignid=21573875733&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6511393614&targetid=&extensionid=&placement=&gad_campaignid=21584159401" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>PMI-PBA (Professional in Business Analysis)</h3>
+                <p>Certification from PMI focusing on business analysis in project management environments.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 2-4 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                </div>
+                <a href="https://www.pmi.org/certifications/business-analysis-pba" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3>ECBA (Entry Certificate in Business Analysis)</h3>
+                <p>Entry-level certification designed for those new to the business analysis profession.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 1-3 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Beginner</span>
+                </div>
+                <a href="https://www.iiba.org/business-analysis-certifications/ecba/" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Agile Analysis Certification (IIBA-AAC)</h3>
+                <p>Certification focused on applying business analysis practices in Agile environments.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 2-4 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+                <a href="https://www.iiba.org/business-analysis-certifications/ecba/" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3>Certified Analytics Professional (CAP)</h3>
+                <p>Certification for professionals focusing on data analytics and decision making.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 3-5 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                </div>
+                <a href="https://www.certifiedanalytics.org/" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h3>Lean Six Sigma Green Belt</h3>
+                <p>Certification emphasizing process improvement and quality management techniques.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 1-3 months preparation</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+                <a href="https://www.coursera.org/in/articles/six-sigma-certification?campaignid=21573875733&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6511393614&targetid=&extensionid=&placement=&gad_campaignid=21584159401" target="_blank" class="btn-small">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Online Courses Section -->
+<section id="courses" class="courses">
+    <div class="container">
+        <div class="section-header">
+            <h2>Online Courses</h2>
+            <p>Structured learning programs to build your business analysis knowledge and practical skills.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Business Analysis Fundamentals</h3>
+                <p>Comprehensive introduction to core business analysis concepts and techniques.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 6 weeks</span>
+                    <span><i class="fas fa-signal"></i> Beginner</span>
+                    <span><i class="fas fa-university"></i> LinkedIn Learning</span>
+                </div>
+                <a href="https://www.linkedin.com/learning/business-analysis-fundamentals" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Business Process Modeling</h3>
+                <p>Learn to document and improve business processes using industry-standard techniques.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 12 hours</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                    <span><i class="fas fa-university"></i> Udemy</span>
+                </div>
+                <a href="https://www.udemy.com/course/business-process-modeling/" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3>Agile Business Analysis</h3>
+                <p>Specialized course covering Agile methodologies and their application in business analysis.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 4 weeks</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                    <span><i class="fas fa-university"></i> Coursera</span>
+                </div>
+                <a href="https://www.coursera.org/learn/google-agile-essentials?campaignid=22288226871&adgroupid=178761665507&device=c&keyword=agile%20course&matchtype=p&network=g&devicemodel=&creativeid=735417839205&assetgroupid=&targetid=kwd-10680687909&extensionid=&placement=&gad_campaignid=22288226871" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Requirements Engineering</h3>
+                <p>Learn how to gather, analyze, and manage business requirements effectively.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 10 hours</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                    <span><i class="fas fa-university"></i> Pluralsight</span>
+                </div>
+                <a href="https://www.pluralsight.com/courses/requirements-engineering" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Stakeholder Management</h3>
+                <p>Develop skills to identify, analyze, and engage stakeholders effectively.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 8 hours</span>
+                    <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                    <span><i class="fas fa-university"></i> A Cloud Guru</span>
+                </div>
+                <a href="https://acloudguru.com/course/stakeholder-management" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Business Analysis Techniques</h3>
+                <p>Explore essential techniques including SWOT, MOST, and PESTLE analysis.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-clock"></i> 15 hours</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                    <span><i class="fas fa-university"></i> edX</span>
+                </div>
+                <a href="https://www.edx.org/course/business-analysis-techniques" target="_blank" class="btn-small">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tutorials and Hands-on Labs Section -->
+<section id="tutorials" class="tutorials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Tutorials and Hands-on Labs</h2>
+            <p>Practical exercises and case studies to develop your business analysis skills.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <h3>BA Times Tutorials</h3>
+                <p>Comprehensive tutorials covering a wide range of business analysis topics.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> All Levels</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.batimes.com/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-box"></i>
+                </div>
+                <h3>Modern Analyst</h3>
+                <p>Articles, webinars, and discussion forums for business analysts.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.modernanalyst.com/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-spider"></i>
+                </div>
+                <h3>BA Process Modeling Labs</h3>
+                <p>Interactive labs to practice business process mapping and analysis.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.bpmlabs.com/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3>BA Case Studies by IIBA</h3>
+                <p>Real-world case studies to sharpen your analytical and problem-solving skills.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> All Levels</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free/Premium</span>
+                </div>
+                <a href="https://www.iiba.org/resources/case-studies/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-terminal"></i>
+                </div>
+                <h3>Business Analysis Challenges</h3>
+                <p>Challenge yourself with practical BA problems and scenario-based exercises.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> All Levels</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.businessanalystchallenges.com/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>BA Simulation Labs</h3>
+                <p>Simulate real business analysis projects with guided instructions.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    <span><i class="fas fa-dollar-sign"></i> Premium</span>
+                </div>
+                <a href="https://www.basimulationlabs.com/" target="_blank" class="btn-small">Start Learning</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Books and Reading Materials Section -->
+<section id="books" class="books">
+    <div class="container">
+        <div class="section-header">
+            <h2>Books and Reading Materials</h2>
+            <p>Essential reading to deepen your understanding of business analysis principles and practices.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Business Analysis Body of Knowledge (BABOK)</h3>
+                <p>The definitive guide by IIBA outlining business analysis standards and best practices.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-user"></i> IIBA</span>
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                </div>
+                <a href="https://www.iiba.org/babok-guide/" target="_blank" class="btn-small">View Book</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Business Analysis Techniques: 99 Essential Tools</h3>
+                <p>A comprehensive collection of tools and techniques for business analysts.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-user"></i> James Cadle, Debra Paul, Paul Turner</span>
+                    <span><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+                <a href="https://www.amazon.com/Business-Analysis-Techniques-Essential-Tools/dp/1118991845" target="_blank" class="btn-small">View Book</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Requirements Engineering: From System Goals to UML Models</h3>
+                <p>Detailed guide on requirements gathering, analysis, and modeling.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-user"></i> Axel van Lamsweerde</span>
+                    <span><i class="fas fa-signal"></i> Advanced</span>
+                </div>
+                <a href="https://www.amazon.com/Requirements-Engineering-System-UML-Models/dp/0470012700" target="_blank" class="btn-small">View Book</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Agile Estimating and Planning</h3>
+                <p>Guide to planning and estimating in Agile projects, crucial for BA roles.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-user"></i> Mike Cohn</span>
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                </div>
+                <a href="https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415" target="_blank" class="btn-small">View Book</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Practice Platforms Section -->
+<section id="platforms" class="platforms">
+    <div class="container">
+        <div class="section-header">
+            <h2>Practice Platforms</h2>
+            <p>Interactive platforms to develop and refine your business analysis skills through real-world projects and case studies.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-flag-checkered"></i>
+                </div>
+                <h3>BA Times</h3>
+                <p>Resource hub offering articles, templates, and practical advice for business analysts.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Beginner-Advanced</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.batimes.com/" target="_blank" class="btn-small">Start Exploring</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Modern Analyst</h3>
+                <p>Community platform with webinars, forums, and templates to support BA professional growth.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Beginner-Advanced</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.modernanalyst.com/" target="_blank" class="btn-small">Start Exploring</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <h3>BA Practice</h3>
+                <p>Platform offering practice exams, case studies, and exercises for CBAP certification preparation.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free/Premium</span>
+                </div>
+                <a href="https://www.bapractice.com/" target="_blank" class="btn-small">Start Practicing</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-lock-open"></i>
+                </div>
+                <h3>BA Times Templates</h3>
+                <p>Downloadable business analysis templates to streamline your workflow and documentation.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> All Levels</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free</span>
+                </div>
+                <a href="https://www.batimes.com/resources/templates/" target="_blank" class="btn-small">Download</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>International Institute of Business Analysis (IIBA)</h3>
+                <p>Global professional association providing certifications, events, and learning resources for BAs.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> All Levels</span>
+                    <span><i class="fas fa-dollar-sign"></i> Free/Paid</span>
+                </div>
+                <a href="https://www.iiba.org/" target="_blank" class="btn-small">Learn More</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Bridging the Gap</h3>
+                <p>Training and mentorship programs designed to help aspiring business analysts succeed.</p>
+                <div class="resource-details">
+                    <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                    <span><i class="fas fa-dollar-sign"></i> Paid</span>
+                </div>
+                <a href="https://www.bridging-the-gap.com/" target="_blank" class="btn-small">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Community and Forums Section -->
+<section id="communities" class="communities">
+    <div class="container">
+        <div class="section-header">
+            <h2>Communities and Forums</h2>
+            <p>Join active business analyst communities to exchange ideas, ask questions, and network professionally.</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Reddit r/businessanalysis</h3>
+                <p>Active subreddit discussing business analysis techniques, challenges, and career advice.</p>
+                <a href="https://www.reddit.com/r/businessanalysis/" target="_blank" class="btn-small">Join Community</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>IIBA Community</h3>
+                <p>Official community of the International Institute of Business Analysis for networking and support.</p>
+                <a href="https://www.iiba.org/community/" target="_blank" class="btn-small">Join Community</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fab fa-stack-exchange"></i>
+                </div>
+                <h3>Project Management Stack Exchange</h3>
+                <p>Q&A site covering business analysis, project management, and related disciplines.</p>
+                <a href="https://pm.stackexchange.com/" target="_blank" class="btn-small">Join Community</a>
+            </div>
+            
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <h3>Business Analyst LinkedIn Groups</h3>
+                <p>Professional LinkedIn groups for business analysts to share knowledge and job opportunities.</p>
+                <a href="https://www.linkedin.com/groups/37884/" target="_blank" class="btn-small">Join Community</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Learning Path Section -->
+<section id="learning-path" class="learning-path">
+    <div class="container">
+        <div class="section-header">
+            <h2>Recommended Learning Path</h2>
+            <p>Follow this structured path to build your business analysis expertise from fundamentals to mastery.</p>
+        </div>
+        <div class="path-timeline">
+            <div class="path-item">
+                <div class="path-marker">1</div>
+                <div class="path-content">
+                    <h3>Foundations (1-3 months)</h3>
+                    <ul>
+                        <li>Understand business analysis core concepts and terminology</li>
+                        <li>Learn requirements elicitation and documentation techniques</li>
+                        <li>Study business process modeling basics</li>
+                        <li>Complete Introduction to Business Analysis course</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="path-item">
+                <div class="path-marker">2</div>
+                <div class="path-content">
+                    <h3>Core Skills (3-6 months)</h3>
+                    <ul>
+                        <li>Practice creating use cases and user stories</li>
+                        <li>Learn stakeholder management and communication skills</li>
+                        <li>Get familiar with business analysis tools (e.g., Jira, Confluence)</li>
+                        <li>Prepare for ECBA or CCBA certification</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="path-item">
+                <div class="path-marker">3</div>
+                <div class="path-content">
+                    <h3>Specialization (6-12 months)</h3>
+                    <ul>
+                        <li>Focus on industry-specific BA practices (finance, healthcare, IT)</li>
+                        <li>Advance knowledge of data analysis and visualization</li>
+                        <li>Complete case studies and scenario-based exercises</li>
+                        <li>Build a professional BA portfolio</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="path-item">
+                <div class="path-marker">4</div>
+                <div class="path-content">
+                    <h3>Advanced Skills (1-2 years)</h3>
+                    <ul>
+                        <li>Obtain CBAP certification for senior BAs</li>
+                        <li>Lead complex projects and mentor junior analysts</li>
+                        <li>Contribute to BA communities and write thought leadership</li>
+                        <li>Develop expertise in agile and digital transformation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+      <!-- Call to Action Section -->
+      <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Business Analyst Career?</h2>
+                <p>Unlock your potential as an Business Analyst! Start your journey by learning more about AI Specialist and learn the insights of being a Business Analyst.</p>
+                <div class="cta-buttons">
+                    <a href="../careers/business-analyst.html" class="btn btn-primary"><i class="fas fa-clipboard-check"></i> View Informations</a>
+                    <a href="../insights/business-analyst.html" class="btn btn-secondary" style="background-color: transparent;
+                    border: 2px solid var(--primary-color);
+                    color: white;
+                    padding: var(--spacing-sm) var(--spacing-lg);
+                    border-radius: 30px;
+                    text-decoration: none;
+                    font-weight: 500;
+                    display: inline-block;"><i class="fas fa-book"></i> View Insights</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                <h3>IT Career Compass</h3>
+                <p>Your guide to navigating the tech career landscape.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="assessment.html">Assessment</a></li>
+                        <li><a href="career-paths.html">Career Paths</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="industry-insights.html">Industry Insights</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="about.html#mission-vision">Our Mission</a></li>
+                        <li><a href="about.html#mission-vision">Our Vision</a></li>
+                        <li><a href="about.html#values">Our Values</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 IT Career Compass. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

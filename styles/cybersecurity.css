@@ -1,0 +1,79 @@
+/* IT Career Compass - CyberSecurity Resource Stylesheet */
+
+/* Import main styles for consistency */
+@import url('main.css');
+
+/* ===== CyberSecurity Section Specific Styles ===== */
+
+.cybersecurity-section {
+    background: linear-gradient(135deg, #232946 0%, #3b6ea5 100%);
+    color: var(--neutral-color);
+    padding: var(--spacing-xl) 0;
+}
+
+.cybersecurity-section .section-header h2 {
+    color: #48CAE4; /* Use accent color for CyberSecurity */
+}
+
+.cybersecurity-section .career-paths {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.cybersecurity-section .career-path {
+    background-color: rgba(255,255,255,0.07);
+    border: 1.5px solid #48CAE4;
+    box-shadow: 0 4px 16px rgba(72,202,228,0.08);
+    color: var(--neutral-color);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.cybersecurity-section .career-path:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(72,202,228,0.15);
+    border-color: #5C7AEA;
+}
+
+.cybersecurity-section .career-icon {
+    background: linear-gradient(135deg, #48CAE4 0%, #2B3A67 100%);
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    margin: 0 auto var(--spacing-md);
+    box-shadow: 0 2px 8px rgba(72,202,228,0.18);
+}
+
+.cybersecurity-section .career-path h3 {
+    color: #48CAE4;
+    margin-bottom: var(--spacing-sm);
+}
+
+.cybersecurity-section .career-path p {
+    color: #e0e0e0;
+    margin-bottom: var(--spacing-md);
+    flex-grow: 1;
+}
+
+.cybersecurity-section .btn-small {
+    background-color: #48CAE4;
+    color: #232946;
+    border-radius: var(--border-radius-sm);
+    transition: background var(--transition-normal), color var(--transition-normal);
+}
+
+.cybersecurity-section .btn-small:hover {
+    background-color: #2B3A67;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .cybersecurity-section .career-paths {
+        grid-template-columns: 1fr;
+    }
+}

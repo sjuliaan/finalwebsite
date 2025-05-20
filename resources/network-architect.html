@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Architect Resources - IT Career Compass</title>
+    <link rel="stylesheet" href="../styles/resources.css">
+    <link rel="stylesheet" href="../careers/template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        @import url('../careers/template.css');
+        /* ===== Hero Section ===== */
+    .hero {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--cybersecurity-dark) 100%);
+        padding: calc(var(--spacing-xxl) + 30px) 0; /* Increased top padding */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/pattern-dots.svg');
+        opacity: 0.05;
+        z-index: 1;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        max-width: 600px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: var(--spacing-md);
+        color: var(--neutral-color);
+        opacity: 0.8;
+    }
+
+    .breadcrumbs a {
+        color: var(--neutral-color);
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+
+    .breadcrumbs a:hover {
+        opacity: 1;
+    }
+
+    .hero-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-md);
+        margin-top: var(--spacing-lg);
+    }
+
+    .stat {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: var(--spacing-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+
+    .stat i {
+        font-size: 2rem;
+        color: var(--cybersecurity-accent);
+    }
+
+    .stat h4 {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--neutral-color);
+        opacity: 0.9;
+    }
+
+    .stat p {
+        margin: 0;
+        font-weight: 600;
+        color: var(--neutral-color);
+    }
+
+    .cta-buttons {
+        margin-top: var(--spacing-lg);
+        display: flex;
+        gap: var(--spacing-md);
+    }
+
+    .hero-image {
+        max-width: 40%;
+        padding-top: 10px;
+    }
+
+    .hero-image img {
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    </style>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                        <span>IT Career Compass</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../assessment.html">Assessment</a></li>
+                        <li><a href="../career-paths.html">Career Paths</a></li>
+                        <li><a href="../resources.html" class="active">Resources</a></li>
+                        <li><a href="../industry-insights.html">Industry Insights</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Network Architect Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Network Architect Resources</h1>
+                <p>Discover comprehensive learning materials to build your skills in designing and implementing robust network architectures.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://www.careerreadymonroe.org/wp-content/uploads/elementor/thumbs/network-architect-qi7x0c4nm58ztjff99fpomebm0lq4o1x8fba399w5c.jpg" alt="Network Architect Resources">
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Navigation Buttons -->
+    <section class="quick-nav">
+        <div class="container">
+            <div class="nav-buttons">
+                <a href="#certifications" class="nav-button"><i class="fas fa-certificate"></i> Certification Guides</a>
+                <a href="#courses" class="nav-button"><i class="fas fa-graduation-cap"></i> Online Courses</a>
+                <a href="#tutorials" class="nav-button"><i class="fas fa-laptop-code"></i> Tutorials & Labs</a>
+                <a href="#books" class="nav-button"><i class="fas fa-book"></i> Books</a>
+                <a href="#communities" class="nav-button"><i class="fas fa-users"></i> Communities</a>
+                <a href="#learning-path" class="nav-button"><i class="fas fa-road"></i> Learning Path</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Overview Section -->
+    <section class="career-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Network Architect Career Overview</h2>
+                <p>Network Architects design and implement data communication networks that form the backbone of modern organizations.</p>
+            </div>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h3>What You'll Learn</h3>
+                    <p>Network architecture is a critical field focused on designing, implementing, and maintaining data communication networks. These networks range from local area networks (LANs) to wide area networks (WANs) and cloud infrastructures.</p>
+                    
+                    <p>As a network architect, you'll learn to:</p>
+                    <ul>
+                        <li>Design and implement network infrastructure</li>
+                        <li>Integrate cloud and on-premises solutions</li>
+                        <li>Optimize network performance and security</li>
+                        <li>Plan for network scalability and future growth</li>
+                        <li>Implement network automation solutions</li>
+                        <li>Stay current with emerging network technologies</li>
+                    </ul>
+
+                    <h3>Essential Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4>Technical Skills</h4>
+                            <ul>
+                                <li>Network design and implementation</li>
+                                <li>Cloud networking (AWS, Azure, GCP)</li>
+                                <li>SD-WAN and SDN technologies</li>
+                                <li>Network security implementation</li>
+                                <li>Network automation and scripting</li>
+                                <li>Performance monitoring and optimization</li>
+                                <li>5G and wireless networking</li>
+                                <li>Network virtualization</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <ul>
+                                <li>Analytical thinking</li>
+                                <li>Problem-solving</li>
+                                <li>Communication</li>
+                                <li>Project management</li>
+                                <li>Team collaboration</li>
+                                <li>Strategic planning</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3>Career Paths in Network Architecture</h3>
+                    <ul class="career-paths-list">
+                        <li><strong>Network Designer</strong> - Focus on network layout and architecture</li>
+                        <li><strong>Cloud Network Architect</strong> - Specialize in cloud networking solutions</li>
+                        <li><strong>Security Network Architect</strong> - Focus on secure network design</li>
+                        <li><strong>Enterprise Network Architect</strong> - Design large-scale corporate networks</li>
+                        <li><strong>Network Automation Engineer</strong> - Focus on network automation and scripting</li>
+                        <li><strong>Network Consultant</strong> - Provide expert advice on network architecture</li>
+                        <li><strong>Chief Network Architect</strong> - Executive responsible for network strategy</li>
+                    </ul>
+                </div>
+                <div class="overview-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Job Growth</h4>
+                        <p>5% projected growth (US, 2021-2031)</p>
+                        <p>15% projected growth (PH, 2021-2031)</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h4>Average Salary</h4>
+                        <p>$126,900/year (US)</p>
+                        <p>₱1,800,000/year (PH)</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Education</h4>
+                        <p>Bachelor's degree in network engineering or related field</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Top Certifications</h4>
+                        <p>CCIE, CCNP, AWS Advanced Networking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Guides Section -->
+    <section id="certifications" class="certification-guides">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certification Guides</h2>
+                <p>Essential certifications for network architects</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Cisco Certified Internetwork Expert (CCIE)</h3>
+                    <p>The premier certification for network professionals, focusing on complex network solutions.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 6-12 months prep</span>
+                        <span><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie.html" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Cisco Certified Network Professional (CCNP)</h3>
+                    <p>Professional-level certification focusing on enterprise network implementation.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 3-6 months prep</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>AWS Certified Advanced Networking</h3>
+                    <p>Specialty certification for designing and implementing AWS network solutions.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 3-6 months prep</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="https://aws.amazon.com/certification/certified-advanced-networking-specialty/" target="_blank" class="btn-small">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Courses Section -->
+    <section id="courses" class="online-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Online Courses</h2>
+                <p>Comprehensive learning paths for network architecture</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Network Design Fundamentals</h3>
+                    <p>Learn the principles of network design and architecture from scratch.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 15 hours</span>
+                        <span><i class="fas fa-signal"></i> Beginner</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Networking Mastery</h3>
+                    <p>Master cloud networking concepts across AWS, Azure, and GCP platforms.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 20 hours</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Network Security Essentials</h3>
+                    <p>Learn to secure network infrastructure against modern threats.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 12 hours</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials and Hands-on Labs Section -->
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tutorials and Hands-on Labs</h2>
+                <p>Practical exercises and step-by-step guides to develop your network architecture skills</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Design Tutorials</h3>
+                    <p>Step-by-step guides for designing various network architectures.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Networking Labs</h3>
+                    <p>Interactive labs for AWS, Azure, and GCP networking.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Configuration</h3>
+                    <p>Practical guides for implementing network security.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books and Reading Materials Section -->
+    <section id="books" class="books">
+        <div class="container">
+            <div class="section-header">
+                <h2>Books and Reading Materials</h2>
+                <p>Essential reading to deepen your understanding of network architecture principles and practices</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Network Design Essentials</h3>
+                    <p>Comprehensive guide to network architecture principles.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> John Doe</span>
+                        <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">View Book</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Cloud Networking Explained</h3>
+                    <p>Deep dive into cloud networking concepts and implementations.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> Jane Smith</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">View Book</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Secure Network Architectures</h3>
+                    <p>Best practices for designing secure network infrastructures.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> Michael Johnson</span>
+                        <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    </div>
+                    <a href="#" target="_blank" class="btn-small">View Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community and Forums Section -->
+    <section id="communities" class="communities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Communities and Forums</h2>
+                <p>Connect with fellow network architecture professionals to share knowledge and stay updated</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Reddit r/networking</h3>
+                    <p>Active community discussing network architecture news, tools, and techniques.</p>
+                    <a href="https://www.reddit.com/r/networking/" target="_blank" class="btn-small">Join Community</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Network Architecture Forum</h3>
+                    <p>Open community focused on improving network architecture practices.</p>
+                    <a href="#" target="_blank" class="btn-small">Join Community</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Network Architects Discord</h3>
+                    <p>Active Discord server for network architecture professionals to collaborate and share knowledge.</p>
+                    <a href="#" target="_blank" class="btn-small">Join Community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path Section -->
+    <section id="learning-path" class="learning-path">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recommended Learning Path</h2>
+                <p>Follow this structured path to build your network architecture skills from beginner to advanced.</p>
+            </div>
+            <div class="path-timeline">
+                <div class="path-item">
+                    <div class="path-marker">1</div>
+                    <div class="path-content">
+                        <h3>Foundation Skills</h3>
+                        <ul>
+                            <li>Learn networking fundamentals (TCP/IP, DNS, DHCP)</li>
+                            <li>Understand network topologies and protocols</li>
+                            <li>Master basic network troubleshooting</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="path-item">
+                    <div class="path-marker">2</div>
+                    <div class="path-content">
+                        <h3>Intermediate Skills</h3>
+                        <ul>
+                            <li>Study network design principles</li>
+                            <li>Learn about routing and switching</li>
+                            <li>Understand network security basics</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="path-item">
+                    <div class="path-marker">3</div>
+                    <div class="path-content">
+                        <h3>Advanced Skills</h3>
+                        <ul>
+                            <li>Master cloud networking (AWS, Azure, GCP)</li>
+                            <li>Learn SD-WAN and SDN technologies</li>
+                            <li>Understand network automation and scripting</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="path-item">
+                    <div class="path-marker">4</div>
+                    <div class="path-content">
+                        <h3>Professional Development</h3>
+                        <ul>
+                            <li>Obtain professional certifications (CCNP, CCIE)</li>
+                            <li>Develop project management skills</li>
+                            <li>Build enterprise-level network designs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Call to Action Section -->
+      <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Computer Network Architect Career?</h2>
+                <p>Unlock your potential as a Computer Network Architect! Start your journey by learning more about Computer Network Architect and learn its insights.</p>
+                <div class="cta-buttons">
+                    <a href="../careers/network-architect.html" class="btn btn-primary"><i class="fas fa-clipboard-check"></i> View Informations</a>
+                    <a href="../insights/network-architect.html" class="btn btn-secondary" style="background-color: transparent;
+                    border: 2px solid var(--primary-color);
+                    color: white;
+                    padding: var(--spacing-sm) var(--spacing-lg);
+                    border-radius: 30px;
+                    text-decoration: none;
+                    font-weight: 500;
+                    display: inline-block;"><i class="fas fa-book"></i> View Insights</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                <h3>IT Career Compass</h3>
+                <p>Your guide to navigating the tech career landscape.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="assessment.html">Assessment</a></li>
+                        <li><a href="career-paths.html">Career Paths</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="industry-insights.html">Industry Insights</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="about.html#mission-vision">Our Mission</a></li>
+                        <li><a href="about.html#mission-vision">Our Vision</a></li>
+                        <li><a href="about.html#values">Our Values</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 IT Career Compass. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

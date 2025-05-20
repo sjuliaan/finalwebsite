@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Specialist Resources - IT Career Compass</title>
+    <link rel="stylesheet" href="../styles/resources.css">
+    <link rel="stylesheet" href="../careers/template.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        @import url('../careers/template.css');
+        /* ===== Hero Section ===== */
+    .hero {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--cybersecurity-dark) 100%);
+        padding: calc(var(--spacing-xxl) + 30px) 0; /* Increased top padding */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/pattern-dots.svg');
+        opacity: 0.05;
+        z-index: 1;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        max-width: 600px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: var(--spacing-md);
+        color: var(--neutral-color);
+        opacity: 0.8;
+    }
+
+    .breadcrumbs a {
+        color: var(--neutral-color);
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+
+    .breadcrumbs a:hover {
+        opacity: 1;
+    }
+
+    .hero-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-md);
+        margin-top: var(--spacing-lg);
+    }
+
+    .stat {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: var(--spacing-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+
+    .stat i {
+        font-size: 2rem;
+        color: var(--cybersecurity-accent);
+    }
+
+    .stat h4 {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--neutral-color);
+        opacity: 0.9;
+    }
+
+    .stat p {
+        margin: 0;
+        font-weight: 600;
+        color: var(--neutral-color);
+    }
+
+    .cta-buttons {
+        margin-top: var(--spacing-lg);
+        display: flex;
+        gap: var(--spacing-md);
+    }
+
+    .hero-image {
+        max-width: 40%;
+        padding-top: 10px;
+    }
+
+    .hero-image img {
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    </style>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                        <span>IT Career Compass</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../assessment.html">Assessment</a></li>
+                        <li><a href="../career-paths.html">Career Paths</a></li>
+                        <li><a href="../resources.html" class="active">Resources</a></li>
+                        <li><a href="../industry-insights.html">Industry Insights</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Career Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>AI Specialist Resources</h1>
+            <p>Discover comprehensive learning materials to build your skills in being an AI Specialist.</p>
+            <div class="cta-buttons">
+                <a href="../careers/ai-specialist.html" class="btn btn-primary"><i class="fas fa-book"></i> Learn more about AI Specialist</a>
+                <a href="../assessment.html" class="btn btn-secondary" style="background-color: transparent;
+                border: 2px solid var(--primary-color);
+                color: white;
+                padding: var(--spacing-sm) var(--spacing-lg);
+                border-radius: 30px;
+                text-decoration: none;
+                font-weight: 500;
+                display: inline-block;"><i class="fas fa-clipboard-check"></i> Take Assessment</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://onlinedegrees.sandiego.edu/wp-content/uploads/2023/04/Applications-of-AI-in-Robots_An-Introduction.jpg" alt="AI Specialist">
+        </div>
+    </div>
+</section>
+
+    <!-- Quick Navigation Buttons -->
+    <section class="quick-nav">
+        <div class="container">
+            <div class="nav-buttons">
+                <a href="#certifications" class="nav-button"><i class="fas fa-certificate"></i> Certification Guides</a>
+                <a href="#courses" class="nav-button"><i class="fas fa-graduation-cap"></i> Online Courses</a>
+                <a href="#tutorials" class="nav-button"><i class="fas fa-laptop-code"></i> Tutorials & Labs</a>
+                <a href="#books" class="nav-button"><i class="fas fa-book"></i> Books</a>
+                <a href="#communities" class="nav-button"><i class="fas fa-users"></i> Communities</a>
+                <a href="#learning-path" class="nav-button"><i class="fas fa-road"></i> Learning Path</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Overview Section -->
+    <section class="career-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>AI Specialist Career Overview</h2>
+                <p>AI Specialists develop intelligent systems that can perform tasks that typically require human intelligence.</p>
+            </div>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h3>What You'll Learn</h3>
+                    <p>AI Specialists are at the forefront of technological innovation, creating systems that can learn, adapt, and perform tasks autonomously. They work across various industries, from healthcare and finance to automotive and entertainment.</p>
+                    
+                    <p>As an AI Specialist, you'll learn to:</p>
+                    <ul>
+                        <li>Design and implement AI models and algorithms</li>
+                        <li>Integrate AI solutions into existing systems</li>
+                        <li>Analyze data to extract meaningful insights</li>
+                        <li>Develop machine learning models</li>
+                        <li>Stay updated with the latest AI trends and technologies</li>
+                    </ul>
+
+                    <h3>Essential Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4>Technical Skills</h4>
+                            <ul>
+                                <li>Machine learning</li>
+                                <li>Data analysis</li>
+                                <li>Programming (Python, R)</li>
+                                <li>Deep learning frameworks (TensorFlow, PyTorch)</li>
+                                <li>Data visualization</li>
+                                <li>Cloud computing</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <ul>
+                                <li>Analytical thinking</li>
+                                <li>Problem-solving</li>
+                                <li>Communication</li>
+                                <li>Continuous learning</li>
+                                <li>Teamwork</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3>Career Paths in AI</h3>
+                    <ul class="career-paths-list">
+                        <li><strong>AI Developer</strong> - Develop and implement AI models and algorithms</li>
+                        <li><strong>Machine Learning Engineer</strong> - Design and deploy machine learning models</li>
+                        <li><strong>Data Scientist</strong> - Analyze data to extract meaningful insights</li>
+                        <li><strong>AI Architect</strong> - Design AI architecture solutions</li>
+                        <li><strong>Chief AI Officer</strong> - Drive AI strategy and innovation</li>
+                        <li><strong>AI Consultant</strong> - Provide expert advice on AI projects</li>
+                    </ul>
+                </div>
+                <div class="overview-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Job Growth</h4>
+                        <p>35% projected growth from 2021-2031</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h4>Average Salary</h4>
+                        <p>$130,000 per year</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Education</h4>
+                        <p>Master's degree in AI or related field</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Top Certifications</h4>
+                        <p>TensorFlow Developer, AWS Certified Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Guides Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certification Guides</h2>
+                <p>Industry-recognized certifications to validate your AI skills and advance your career.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>TensorFlow Developer Certificate</h3>
+                    <p>Validates your ability to build and deploy AI models using TensorFlow.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 2-3 months preparation</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="https://www.tensorflow.org/certificate" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>AWS Certified Machine Learning - Specialty</h3>
+                    <p>Demonstrates expertise in building, training, and deploying machine learning models on AWS.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 3-4 months preparation</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Google Professional Machine Learning Engineer</h3>
+                    <p>Certifies your ability to design, build, and operationalize machine learning models on Google Cloud.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 3-5 months preparation</span>
+                        <span><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <a href="https://cloud.google.com/certification/machine-learning-engineer" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SAS Certified AI & Machine Learning Professional</h3>
+                    <p>Proves your proficiency in using SAS and open-source tools to build AI models.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 4-6 months preparation</span>
+                        <span><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <a href="https://www.sas.com/en_us/certification/credentials/advanced-analytics/ai-machine-learning.html" target="_blank" class="btn-small">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Online Courses</h2>
+                <p>Structured learning programs to build your AI knowledge and practical skills.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>AI for Everyone</h3>
+                    <p>Introduction to AI concepts and applications for non-technical audiences.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 4 weeks</span>
+                        <span><i class="fas fa-signal"></i> Beginner</span>
+                        <span><i class="fas fa-university"></i> Coursera</span>
+                    </div>
+                    <a href="https://www.coursera.org/learn/ai-for-everyone" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Deep Learning Specialization</h3>
+                    <p>Comprehensive course series covering deep learning techniques and applications.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 3 months</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                        <span><i class="fas fa-university"></i> Coursera</span>
+                    </div>
+                    <a href="https://www.coursera.org/specializations/deep-learning" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Stanford University's renowned course on machine learning fundamentals.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 11 weeks</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                        <span><i class="fas fa-university"></i> Coursera</span>
+                    </div>
+                    <a href="https://www.coursera.org/learn/machine-learning" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>AI Programming with Python</h3>
+                    <p>Learn to program AI applications using Python and popular AI libraries.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-clock"></i> 2 months</span>
+                        <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                        <span><i class="fas fa-university"></i> Udacity</span>
+                    </div>
+                    <a href="https://www.udacity.com/course/ai-programming-python-nanodegree--nd089" target="_blank" class="btn-small">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials and Hands-on Labs Section -->
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tutorials and Hands-on Labs</h2>
+                <p>Practical exercises and step-by-step guides to develop your AI skills.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3>Kaggle Tutorials</h3>
+                    <p>Learn data science and machine learning through hands-on exercises and competitions.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://www.kaggle.com/learn" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>Google Colab</h3>
+                    <p>Interactive Python notebooks for machine learning and data analysis.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://colab.research.google.com/" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-spider"></i>
+                    </div>
+                    <h3>TensorFlow Playground</h3>
+                    <p>Visualize and experiment with neural networks in your browser.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://playground.tensorflow.org/" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>IBM Watson Studio</h3>
+                    <p>Collaborative environment for data scientists to build and train AI models.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free/Premium</span>
+                    </div>
+                    <a href="https://www.ibm.com/cloud/watson-studio" target="_blank" class="btn-small">Start Learning</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books and Reading Materials Section -->
+    <section id="books" class="books">
+        <div class="container">
+            <div class="section-header">
+                <h2>Books and Reading Materials</h2>
+                <p>Essential reading to deepen your understanding of AI principles and practices.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <p>Comprehensive guide to deep learning techniques and applications.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> Ian Goodfellow, Yoshua Bengio, Aaron Courville</span>
+                        <span><i class="fas fa-signal"></i> Intermediate-Advanced</span>
+                    </div>
+                    <a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618" target="_blank" class="btn-small">View Book</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Artificial Intelligence: A Guide to Intelligent Systems</h3>
+                    <p>Comprehensive introduction to AI concepts and applications.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> Michael Negnevitsky</span>
+                        <span><i class="fas fa-signal"></i> Beginner-Intermediate</span>
+                    </div>
+                    <a href="https://www.amazon.com/Artificial-Intelligence-Guide-Intelligent-Systems/dp/1408225741" target="_blank" class="btn-small">View Book</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</h3>
+                    <p>Practical guide to machine learning and deep learning using Python libraries.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-user"></i> Aurélien Géron</span>
+                        <span><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646" target="_blank" class="btn-small">View Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Platforms Section -->
+    <section id="practice-platforms" class="practice-platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Practice Platforms</h2>
+                <p>Hands-on environments to develop and test your AI skills.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>Kaggle</h3>
+                    <p>Participate in competitions and collaborate with other AI specialists.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://www.kaggle.com/" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>DrivenData</h3>
+                    <p>Engage in AI competitions with a social impact.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://www.drivendata.org/" target="_blank" class="btn-small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>DataCamp</h3>
+                    <p>Learn AI through interactive courses and projects.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free/Premium</span>
+                    </div>
+                    <a href="https://www.datacamp.com/" target="_blank" class="btn-small">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community and Forums Section -->
+    <section id="communities" class="communities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Community and Forums</h2>
+                <p>Connect with other AI professionals and enthusiasts to share knowledge and insights.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>AI Stack Exchange</h3>
+                    <p>Community-driven Q&A platform for AI-related topics.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://ai.stackexchange.com/" target="_blank" class="btn-small">Join Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Reddit AI Community</h3>
+                    <p>Engage with a large community of AI enthusiasts on Reddit.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://www.reddit.com/r/artificial/" target="_blank" class="btn-small">Join Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>LinkedIn AI Group</h3>
+                    <p>Professional network for AI specialists to share insights and opportunities.</p>
+                    <div class="resource-details">
+                        <span><i class="fas fa-signal"></i> All Levels</span>
+                        <span><i class="fas fa-dollar-sign"></i> Free</span>
+                    </div>
+                    <a href="https://www.linkedin.com/groups/AI-Group-123456/" target="_blank" class="btn-small">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Learning Path Section -->
+        <section id="learning-path" class="learning-path">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Recommended Learning Path</h2>
+                    <p>Follow this structured path to build your AI skills from beginner to advanced.</p>
+                </div>
+                <div class="path-timeline">
+                    <div class="path-item">
+                        <div class="path-marker">1</div>
+                        <div class="path-content">
+                            <h3>Foundations (1-3 months)</h3>
+                            <ul>
+                                <li>Learn programming fundamentals (Python recommended)</li>
+                                <li>Understand basic AI concepts</li>
+                                <li>Study machine learning principles</li>
+                                <li>Complete Introduction to AI course</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="path-item">
+                        <div class="path-marker">2</div>
+                        <div class="path-content">
+                            <h3>Core Skills (3-6 months)</h3>
+                            <ul>
+                                <li>Prepare for and obtain TensorFlow Developer Certificate</li>
+                                <li>Practice with basic AI projects</li>
+                                <li>Learn data analysis and visualization</li>
+                                <li>Study common AI algorithms and models</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="path-item">
+                        <div class="path-marker">3</div>
+                        <div class="path-content">
+                            <h3>Specialization (6-12 months)</h3>
+                            <ul>
+                                <li>Choose a focus area (e.g., computer vision, NLP)</li>
+                                <li>Pursue relevant intermediate certification (AWS ML, GCP AI)</li>
+                                <li>Complete hands-on labs and practical exercises</li>
+                                <li>Build a portfolio of AI projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="path-item">
+                        <div class="path-marker">4</div>
+                        <div class="path-content">
+                            <h3>Advanced Skills (1-2 years)</h3>
+                            <ul>
+                                <li>Pursue advanced certifications (Google ML Engineer, SAS AI)</li>
+                                <li>Contribute to open-source AI projects</li>
+                                <li>Participate in AI competitions</li>
+                                <li>Specialize in emerging areas (AI ethics, reinforcement learning)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your AI Specialist Career?</h2>
+                <p>Unlock your potential as an AI Specialist! Start your journey by learning more about AI Specialist and learn the insights of being an AI Specialist.</p>
+                <div class="cta-buttons">
+                    <a href="../careers/ai-specialist.html" class="btn btn-primary"><i class="fas fa-clipboard-check"></i> View Informations</a>
+                    <a href="../insights/ai-specialist.html" class="btn btn-secondary" style="background-color: transparent;
+                    border: 2px solid var(--primary-color);
+                    color: white;
+                    padding: var(--spacing-sm) var(--spacing-lg);
+                    border-radius: 30px;
+                    text-decoration: none;
+                    font-weight: 500;
+                    display: inline-block;"><i class="fas fa-book"></i> View Insights</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../images/logo.svg" alt="IT Career Compass Logo">
+                <h3>IT Career Compass</h3>
+                <p>Your guide to navigating the tech career landscape.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="assessment.html">Assessment</a></li>
+                        <li><a href="career-paths.html">Career Paths</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="industry-insights.html">Industry Insights</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="about.html#mission-vision">Our Mission</a></li>
+                        <li><a href="about.html#mission-vision">Our Vision</a></li>
+                        <li><a href="about.html#values">Our Values</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 IT Career Compass. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
